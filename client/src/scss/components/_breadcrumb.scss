@@ -1,0 +1,25 @@
+.breadcrumb-section{
+    background-color: #f7f8fb;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    .container{
+        h1{
+            font-weight: 500;
+            font-size: 28px;
+            }
+        @include flex(center, space-around);
+        .breadcrumb{
+            
+            display: flex;
+            &--item{
+                display: flex;
+            }
+            .active{
+                color: #687188;
+                span{
+                    padding-left: 5px;
+                }
+            }
+        }
+    }
+}
